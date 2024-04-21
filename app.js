@@ -7,7 +7,7 @@ const axios = require("axios"); // Import axios module
 const Contact = require("./src/models/contact");
 
 const app = express();
-require("./db/conn");
+require("./src/db/conn");
 
 const port = process.env.PORT || 3000;
 
