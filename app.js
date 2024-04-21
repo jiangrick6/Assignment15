@@ -4,10 +4,10 @@ const http = require("http"); // Change to http module
 const hbs = require("hbs");
 const axios = require("axios"); // Import axios module
 
-const Contact = require("./src/models/contact");
+const Contact = require("./models/contact");
 
 const app = express();
-require("./src/db/conn");
+require("./db/conn");
 
 const port = process.env.PORT || 3000;
 
