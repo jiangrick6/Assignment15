@@ -23,7 +23,7 @@ app.set("views", templates_path);
 hbs.registerPartials(partials_path);
 
 app.get("/", (req, res) => {
-  res.render("index.hbs");
+  res.render("index");
 });
 
 app.get("/attractions", (req, res) => {
