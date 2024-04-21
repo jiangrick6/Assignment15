@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<!--CSCE 242 Project part 6 Webpage Written by Rick Jiang -->
+
+<head>
+    <title>Project Part 6</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/faq.css">
+</head>
+
+
+<body>
+  
+    {{> navbar}}
+
+    <div class="spacer"></div>
+
+    <main id="main-content" class="faqs">
+        <div class="attraction-html "></div>
+        <h2 class="heading">FAQs</h2>
+        <p>These are all the frequent ask questions</p>
+        <div class="layout">
+            <div class="wrapper bg-opacity-75 bg-white rounded shadow">
+                <div class="h2 text-center fw-bold">SeaHawk</div>
+                <div class="h3 text-primary text-center">How can we help you?</div>
+                <div class="d-flex justify-content-center">
+                    <div class="search w-75 d-flex align-items-center"> <span class="fas fa-search text-dark"></span>
+                        <input type="text" class="form-control" placeholder="Describe your issue">
+                    </div>
+                </div>
+                <div class="accordion accordion-flush border-top border-start border-end" id="myAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne"> <button
+                                class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne"> Where to tour at the Seattle Washington? </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse border-0"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                            <div class="accordion-body p-0">
+                                <ul class="list-unstyled m-0">
+                                    <li>
+                                        <p>Seattle, Washington, is a vibrant city that blends natural beauty
+                                            with urban sophistication,
+                                            making it a must-visit destination. From the iconic Space Needle, offering
+                                            breathtaking
+                                            panoramic views, to the bustling Pike Place Market, famous for its fresh
+                                            produce and original
+                                            Starbucks, there's something for everyone. Art enthusiasts will marvel at
+                                            the Chihuly Garden and
+                                            Glass and the Seattle Art Museum, while the Museum of Pop Culture (MoPOP)
+                                            caters to fans of
+                                            music, science fiction, and pop culture. The Seattle Aquarium and ferry
+                                            rides on Puget Sound
+                                            provide a glimpse into the region's marine life, and the Boeing Factory Tour
+                                            offers an
+                                            intriguing look at aviation history.
+                                            Seattle's diverse attractions ensure a memorable experience for all
+                                            visitors.</p>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne"> <button
+                                class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo"> What is the Weather be like in Seattle? </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse border-0"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                            <div class="accordion-body p-0">
+                                <ul class="list-unstyled m-0">
+                                    <li>
+                                        <p>Seattle, known for its temperate marine climate, experiences mild and wet
+                                            winters contrasted by
+                                            relatively dry and mild summers.
+                                            Spring brings a mix of rain and increasing warmth, with temperatures
+                                            gradually rising from the
+                                            mid-50s to the mid-60s°F. Summer offers the best weather, with dry
+                                            conditions and temperatures
+                                            ranging from the upper 60s to mid-70s°F, perfect for outdoor activities.
+                                            Rainfall is a defining
+                                            feature of Seattle's climate, especially from late fall through early
+                                            spring, contributing to
+                                            its lush green landscapes and the nickname "The Emerald City." Despite its
+                                            reputation for rain,
+                                            Seattle receives less annual precipitation than many other U.S. cities,
+                                            with the rain often coming in the form of light drizzles that contribute to
+                                            its vibrant outdoor
+                                            culture and scenic beauty</p>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne"> <button
+                                class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree"> When the best time of day tours the space needle?
+                            </button> </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse border-0"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                            <div class="accordion-body p-0">
+                                <ul class="list-unstyled m-0">
+                                    <li>
+                                        <p href="#">The optimal time for touring the Space Needle is at sunset, offering
+                                            visitors a mesmerizing view
+                                            as the sun sets behind the Olympic Mountains,
+                                            illuminating the city and Puget Sound with vibrant colors. This time
+                                            provides unparalleled
+                                            photographic opportunities and a magical viewing experience, although it's
+                                            popular and can be
+                                            crowded. For those seeking tranquility and equally stunning views, early
+                                            morning visits are
+                                            advisable, benefiting from fewer crowds and the clear visibility that often
+                                            accompanies the
+                                            start of the day. Regardless of the chosen time,
+                                            it's recommended to check the weather for clear days and purchase tickets in
+                                            advance to enhance
+                                            the experience..</p>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne"> <button
+                                class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                aria-controls="flush-collapseSix"> Policy & copyrights </button> </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse border-0"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                            <div class="accordion-body p-0">
+                                <ul class="list-unstyled m-0">
+                                    <li><a href="#">SeaHawk Guidelines</a></li>
+                                    <li><a href="#">SeaHawk Policies</a></li>
+                                    <li><a href="#">Copyright and right management</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        @Copyright 2024 || SeaHawk
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

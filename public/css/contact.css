@@ -1,0 +1,14 @@
+.layout {
+    background-color: rgba(214, 214, 214, 0.089);
+  }
+  .iframe {
+    max-width: 700px;
+    margin-inline: auto;
+    margin-top: 5em;
+    width: 100%;
+  }
+  .iframe iframe {
+    max-width: 700px;
+    width: calc(100% - 20px);
+    margin-inline: 10px;
+  }

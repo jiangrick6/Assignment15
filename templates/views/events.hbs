@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<!--CSCE 242 Project part 6 -->
+
+<head>
+  <title>Project Part 6</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+ 
+    {{> navbar}}
+  <div class="spacer"></div>
+  <main id="main-content" class="family-events ">
+    <div class="attraction-html "></div>
+    <h2>Family Events</h2>
+
+
+
+    <div class="layout ">
+      <h3>Create Family Events</h3>
+
+      <form class="deals-form" id="event-form">
+        <input type="text" id="eventName" placeholder="Event Name" required />
+        <input type="datetime" id="eventDate" placeholder="Event Date" required />
+        <input type="text" id="organizerName" placeholder="Organizer Name" required />
+        <input type="email" id="organizerEmail" placeholder="Organizer Email" required />
+
+        <div>
+          <button type="submit">Create</button>
+        </div>
+      </form>
+
+
+      <div class="event-details">
+        <!-- <table id="event-table">
+            <caption>Upcoming Events</caption>
+            <thead>
+              <tr>
+                <th scope="col">Event Name</th>
+                <th scope="col">Event Date</th>
+                <th scope="col">Manager Name</th>
+                <th scope="col">Manager Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="event">Family Picnic</td>
+                <td data-label="Date">2024-05-01</td>
+                <td data-label="organizer">John Doe</td>
+                <td data-label="organizer email">jhondoe@gmail.com</td>
+              </tr>
+
+            </tbody>
+          </table> -->
+      </div>
+
+
+
+  </main>
+  <footer>
+    @Copyright 2024 || SeaHawk
+  </footer>
+ 
+
+
+</body>
+
+</html>

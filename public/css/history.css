@@ -1,0 +1,25 @@
+.layout img {
+    width: 100%;
+    height: 262px;
+    object-fit: cover;
+  }
+  img {
+    max-width: 695px;
+    max-height: 350px;
+  }
+  .layout {
+    margin-top: 1em;
+  }
+  .history-heritage .layout {
+    background: #000000b9;
+    margin-top: 3em;
+  }
+  .history-heritage p {
+    max-width: 695px;
+  }
+  
+  #main-content h2 {
+    margin: 0 !important;
+    padding: 0em 0 1em 0 !important;
+  }
+  

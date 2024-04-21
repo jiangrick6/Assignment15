@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "mainClass": "item-1",
+        "h1": "1.Marination Ma Kai",
+
+        "items": [{ "p1": "check for more", "em1": "Info", "a": "https://marinationmobile.com/" }],
+
+        "p": "Situated along Seattle's scenic Alki Beach, Marination Ma Kai offers a vibrant blend of Hawaiian and Korean cuisine against a backdrop of stunning waterfront views. With a laid-back atmosphere and an inventive menu featuring favorites like Spam sliders and Kalbi beef tacos, this popular spot promises a unique and delicious dining experience. Don't miss their iconic Spam Musubi and refreshing craft cocktails."
+
+
+    }, {
+        "id": 2,
+        "mainClass":"item-2",
+        "h1": "2. Ton Kiang Barbque Noodle House",
+        "items":[{ "p1": "check for more", "em1": "Info", "a": "https://www.yelp.com/biz/ton-kiang-barbeque-noodle-house-seattle"}],
+        "p": "Located in Seattle, Ton Kiang Barbecue Noodle House is a go-to destination for authentic Chinese barbecue and noodle dishes. The restaurant boasts a cozy ambiance and a menu filled with flavorful options. From succulent barbecue meats to hearty noodle soups, Ton Kiang offers a taste of traditional Chinese cuisine right in the heart of Seattle. Enjoy favorites like BBQ pork, roast duck, and hand-pulled noodles, all expertly prepared and served with a side of hospitality. Whether you're craving a quick bite or a leisurely meal, Ton Kiang Barbecue Noodle House promises a satisfying dining experience that keeps customers coming back for more."
+
+    }
+    , {
+        "id": 3,
+        "mainClass":"item-3",
+        "h1": "3. Harbor City Restaurants",
+        "items":[{ "p1": "check for more", "em1": "Info", "a": "https://harborcityseattle.com/"}],
+        "p": "Situated in the vibrant culinary scene of Seattle, Harbor City is a renowned establishment offering an extensive menu of fresh seafood and  Asian-inspired dishes. With its prime waterfront location, Harbor City provides diners with stunning views while they enjoy a diverse selection of sushi, sashimi, and seafood specialties. The restaurant's elegant yet welcoming atmosphere makes it ideal for both casual outings and special occasions. From traditional Japanese cuisine to innovative fusion dishes, Harbor City prides itself on delivering exceptional flavors and top-notch service, ensuring a memorable dining experience for every guest."
+
+    }
+]
