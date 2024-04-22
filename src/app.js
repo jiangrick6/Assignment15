@@ -9,7 +9,7 @@ const Contact = require("./models/contact");
 const app = express();
 require("./db/conn");
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 10000;
 
 const static_path = path.join(__dirname, "../public");
 const templates_path = path.join(__dirname, "../templates/views");
